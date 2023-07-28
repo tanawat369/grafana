@@ -1,0 +1,20 @@
+db.users.find()
+db.users.insert({name:"test",email:"test.gmail.com"})
+use mydb
+db.users.find()
+db.users.insert({name:"tanawatt",email:"tanawat@gmail.com"})
+db.users.find()
+show collections
+use users
+show collections
+show mydb
+show dbs
+db.users.find()
+show collections
+show users
+show mydb
+db.users.insert({name:"tanawat",email:"tanawat@gmail.com"})
+db.users.insert{(name:"tanawat",email:"tanawat@gmail.com")}
+show collections
+use mydb
+show dbs

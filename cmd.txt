@@ -1,0 +1,21 @@
+docker ps
+docker ps -a
+docker pull => node/mongo
+docker image
+docker run -it => --name mynode(name) => node/mongo
+docker exec -it => container ID => sh
+docker run -d --name mongodb -p 27017:27017 mongo
+docker rm <container id>
+docker run -d --name mongodb -v "D:/Devops/New folder/docker_mongo/db:/data/db" -p 27017:27017 mongo
+
+
+linux cmd
+apt-get update
+apt-get install net-tools
+
+mongo cmd
+mongosh
+
+compose
+docker compose up -d
+docker compose stop
